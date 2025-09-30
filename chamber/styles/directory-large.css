@@ -1,15 +1,8 @@
 @media screen and (min-width: 32rem) {
     #members {
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 1rem;
     }
 
-    #members section {
-        border: 1px solid lightblue;
-        border-radius: 0.3rem;
-        padding: 1rem;
-        margin: 1rem;
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    }
+    #members section {}
 
 }

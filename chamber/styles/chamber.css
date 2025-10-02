@@ -1,0 +1,28 @@
+html,
+body,
+main {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+
+}
+
+#hero {
+    width: 100%;
+    height: auto;
+}
+
+#call-action {
+    position: absolute;
+    width: 50%;
+    top: 400px;
+    right: 0px;
+    font-size: 3rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    padding: 3rem;
+}

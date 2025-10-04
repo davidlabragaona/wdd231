@@ -1,3 +1,7 @@
+* {
+    border: 1px solid gray;
+}
+
 html,
 body,
 main {
@@ -5,9 +9,35 @@ main {
     padding: 0;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lavender;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
 main {
     width: 100%;
 
+}
+
+h1 {
+    font-family: "Roboto Condensed";
+    font-size: 3rem;
 }
 
 #hero {
@@ -25,4 +55,10 @@ main {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 2rem;
     padding: 3rem;
+}
+
+#logo {
+    display: block;
+    width: 70px;
+    height: auto;
 }

@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="styles/directory.css">
     <link rel="stylesheet" href="styles/chamber.css">
     <script src="scripts/directory.js" defer></script>
+    <script src="scripts/chamber.js" defer></script>
 </head>
 
 <body>
@@ -40,13 +41,32 @@
     <main>
         <section>
             <img id="hero" src="images/hero.webp" alt="Lobos Chamber of Commerce" loading="lazy">
+            <div id="call-action">
+                <p>Join the Chamber!</p>
+                <button>JOIN</button>
+            </div>
         </section>
-        <section id="call-action">
-            <p>Join the Chamber!</p>
-            <button>JOIN</button>
-        </section>
-        <section>Weather</section>
-        <section>Spotlights</section>
+        <h2>Home</h2>
+        <div id="first-section">
+            <section>
+                <h2>Events</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni molestiae blanditiis delectus minima suscipit numquam quam iusto aliquid amet aspernatur, sit corrupti quos laudantium a illo, sapiente maxime omnis veritatis.</p>
+            </section>
+            <section>
+                <h2>Current Weather</h2>
+                <p><span id="icon"></span></p>
+            </section>
+            <section>
+                <h2>Weather Forecast</h2>
+                <p></p>
+            </section>
+        </div>
+        <div id="second-section">
+            <section>Business Name</section>
+            <section>Business Name</section>
+            <section>Business Name</section>
+        </div>
+        
     </main>
     <footer>
         <p>Lobos Chamber of Commerce</p>

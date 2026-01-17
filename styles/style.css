@@ -1,5 +1,6 @@
 * {
     /*border: 1px solid black;*/
+    font-family: Roboto, sans-serif;
 }
 
 body {
@@ -31,24 +32,40 @@ header {
     content: "\00D7";
 }
 
+.show {
+    display: block;
+}
+
+nav {
+    display: none;
+}
+
 nav ul {
     margin: 0px;
     padding: 0px;
 }
 
 nav li {
-    padding: 1rem;
     text-decoration: none;
     list-style: none;
-    height: 1.5rem;
+    height: 3rem;
     background-color: aliceblue;
     border-bottom: lightskyblue 1px solid;
+}
+
+nav li:hover {
+    background-color: rgba(0, 0, 0, .3);
+    color: aliceblue;
 }
 
 nav a {
     text-decoration: none;
     display: block;
     color: cornflowerblue;
+}
+
+nav a:hover {
+    color: aliceblue;
 }
 
 button {
@@ -58,21 +75,26 @@ button {
 }
 
 main {
-    padding: .5rem;
+    padding-bottom: .5rem;
+    height: 100%;
 }
 
 main h2 {
     background-color: black;
     color: aliceblue;
     text-align: center;
+    margin: 0px;
+    padding: 0.5rem;
 }
 
 main section {
     background-color: lightblue;
+    margin-bottom: 1rem;
 }
 
 main section p {
     padding: 0.5rem;
+    margin: 0px;
 }
 
 /*================ Footer ===============*/
@@ -82,4 +104,72 @@ footer {
     color: cornflowerblue;
     text-align: center;
     grid-row: 5 / 6;
+    padding-top: 1rem;
+}
+
+#profile {
+    width: 128px;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 1rem;
+}
+
+#courseFilters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+#course-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem;
+}
+
+.btn-filter {
+    border: 1px solid cornflowerblue;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: aliceblue;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+#social {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#gh,
+#ig,
+#li {
+    display: block;
+    width: 2rem;
+    height: auto;
+}
+
+#cont-credits p {
+    text-align: center;
+}
+
+.completed {
+    background-color: lightgreen;
+    color: black;
+    border-color: green;
+}
+
+.completed::before {
+    content: "✔";
+    color: green;
+}
+
+.courses {
+    background-color: gold;
+    color: black;
+    border-color: red;
 }

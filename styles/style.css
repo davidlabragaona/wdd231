@@ -4,6 +4,7 @@
 }
 
 body {
+    min-width: 320px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto 3rem;
@@ -22,6 +23,15 @@ header {
     display: block;
     width: 100%;
     height: auto;
+    align-self: center;
+}
+
+#title {
+    font-size: x-large;
+}
+
+.hamburger {
+    cursor: pointer;
 }
 
 .hamburger::before {
@@ -43,35 +53,33 @@ nav {
 nav ul {
     margin: 0px;
     padding: 0px;
+    background-color: aliceblue;
 }
 
 nav li {
-    text-decoration: none;
+    /*text-decoration: none;*/
     list-style: none;
     height: 3rem;
-    background-color: aliceblue;
     border-bottom: lightskyblue 1px solid;
+    
 }
 
 nav li:hover {
-    background-color: rgba(0, 0, 0, .3);
-    color: aliceblue;
+    background-color: rgba(0, 128, 255, .2);
+    color: darkblue;
 }
 
 nav a {
     text-decoration: none;
     display: block;
-    color: cornflowerblue;
-}
-
-nav a:hover {
-    color: aliceblue;
+    color: darkblue;
+    padding: 1rem;
 }
 
 button {
     border: none;
     background-color: transparent;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*font-family: Verdana, sans-serif;*/
 }
 
 main {
@@ -90,6 +98,7 @@ main h2 {
 main section {
     background-color: lightblue;
     margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 main section p {
@@ -101,7 +110,7 @@ main section p {
 footer {
     border: 1px solid cornflowerblue;
     background-color: aliceblue;
-    color: cornflowerblue;
+    color: darkblue;
     text-align: center;
     grid-row: 5 / 6;
     padding-top: 1rem;
@@ -124,7 +133,7 @@ footer {
 
 #course-list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: .5rem;
 }
 
@@ -172,4 +181,8 @@ footer {
     background-color: gold;
     color: black;
     border-color: red;
+}
+
+.active::before {
+    content: "> ";
 }

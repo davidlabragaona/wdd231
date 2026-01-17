@@ -78,19 +78,6 @@ const courses = [
     }
 ];
 
-//================ Dates ===================
-const year = new Date(Date.now());
-document.querySelector('#currentYear').textContent = year.getFullYear();
-document.querySelector('#lastModified').textContent = `Last modified: ${document.lastModified}`;
-
-//hamburguer
-const hamburguer = document.querySelector('#nav-button');
-const menu = document.querySelector('#menu');
-hamburguer.addEventListener('click', x => {
-    hamburguer.classList.toggle('show');
-    menu.classList.toggle('show');
-});
-
 //filter buttons
 document.querySelector('#courseFilters').addEventListener('click', x => {
     if (x.target.tagName === 'BUTTON') {

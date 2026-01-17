@@ -4,43 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD 231 - Course ">
+    <meta name="description" content="WDD 231 - Course Home Site">
     <meta name="author" content="David Labra Gaona">
-    <title>Document</title>
+    <title>WDD 231 Home Page - David Labra Gaona</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wdth@87.5&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts/site.js" defer></script>
+    <link rel="stylesheet" href="styles/style-large.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/course.js" defer></script>
 </head>
 
 <body>
     <header>
         <img src="images/leaf.svg" alt="site logo" width="1" height="1" id="logo">
-        <span>David Labra Gaona</span>
+        <span id="title">David Labra Gaona</span>
         <button id="nav-button" class="hamburger" aria-label="navigation"></button>
     </header>
     <nav id="menu">
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Home</a></li>
             <li><a href="#">Chamber</a></li>
             <li><a href="#">Final</a></li>
         </ul>
     </nav>
     <main>
         <h1>Home</h1>
-        <section>
+        <section id="about">
             <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio expedita eius voluptatem reiciendis quasi
-                at blanditiis aut dolor nemo facere, nobis soluta quam perferendis eos, sapiente saepe velit, debitis
-                officia?</p>
+            <p>Passionate about implementing hacks to help people. Currently pursuing the pilot career. Loves taking photos of the sunset.</p>
         </section>
-        <section>
+        <section id="photo">
             <h2>Student Photo</h2>
-            <img alt="personal-photo" src="images/profile.webp" width="1" height="1" id="profile">
+            <img alt="Personal photo" src="images/profile.webp" width="1" height="1" id="profile">
         </section>
-        <section>
+        <section id="certificates">
             <h2>Web Certificate Courses</h2>
             <div id="courseFilters">
                 <button class="btn-filter">All</button>

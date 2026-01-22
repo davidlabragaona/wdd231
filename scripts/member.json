@@ -1,0 +1,23 @@
+{
+    "family_name": "Rodriguez",
+    "moved_in_date": "2026-01-30",
+    "number_of_people": 3,
+    "visited_by_bishopric": true,
+    "family_members": [
+        {
+            "name": "Gaston Rodriguez",
+            "gender": "Male",
+            "birthdate": "1990-10-26"
+        },
+        {
+            "name": "Carla Rodriguez",
+            "gender": "Female",
+            "birthdate": "1992-05-12"
+        },
+        {
+            "name": "Delia Rodriguez",
+            "gender": "Female",
+            "birthdate": "2012-11-13"
+        }
+    ]
+}

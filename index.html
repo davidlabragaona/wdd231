@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 231 - Course Home Site">
+    <meta name="author" content="David Labra Gaona">
+    <title>WDD 231 Home Page - David Labra Gaona</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wdth@87.5&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-large.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/leaf.svg" alt="site logo" width="1" height="1" id="logo">
+        <span id="title">David Labra Gaona</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+    </header>
+    <nav id="menu">
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Passionate about implementing hacks to help people. Currently pursuing the pilot career. Loves taking
+                photos of the sunset.</p>
+        </section>
+        <section id="photo">
+            <h2>Student Photo</h2>
+            <img alt="Personal photo" src="images/profile.webp" width="1" height="1" id="profile">
+        </section>
+        <section id="certificates">
+            <h2>Web Certificate Courses</h2>
+            <div id="courseFilters">
+                <button class="btn-filter">All</button>
+                <button class="btn-filter">CSE</button>
+                <button class="btn-filter">WDD</button>
+            </div>
+            <div id="cont-credits">
+                <p>The total number of credits is <span id="credits"></span></p>
+                <p>The total number of course listed below is <span id="courses"></span></p>
+                <div id="course-list">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="social">
+            <a href="https://github.com/davidlabragaona" target="_blank"><img id="gh" src="images/github.svg"
+                    alt="github profile" width="1" height="1"></a>
+            <a href="https://ar.linkedin.com/in/david-labra-gaona" target="_blank"><img id="li"
+                    src="images/linkedin.svg" alt="linkedin profile" width="1" height="1"></a>
+            <a href="https://www.instagram.com/davidlabragaona/" target="_blank"><img id="ig" src="images/instagram.svg"
+                    alt="instagram profile" width="1" height="1"></a>
+        </div>
+        <p>&copy; <span id="currentYear"></span> David Labra Gaona - Buenos Aires - Argentina</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

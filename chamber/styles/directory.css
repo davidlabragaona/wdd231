@@ -1,0 +1,56 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+#members {
+    display: grid;
+}
+
+#members section {
+    border: 1px solid lightblue;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    margin: .5rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+footer {
+    background-color: lightblue;
+    font-family: roboto;
+    padding: 1rem .3rem;
+}
+
+footer section {
+    width: 100%;
+}
+
+footer section span {
+    font-weight: 600;
+}
+
+footer section p {
+    margin: .5rem 0;
+}
+
+#social {
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+}
+
+#social a {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+#social a img {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+}

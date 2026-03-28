@@ -20,37 +20,4 @@ body {
 
 footer {
     background-color: lightblue;
-    font-family: roboto;
-    padding: 1rem .3rem;
-}
-
-footer section {
-    width: 100%;
-}
-
-footer section span {
-    font-weight: 600;
-}
-
-footer section p {
-    margin: .5rem 0;
-}
-
-#social {
-    width: 80%;
-    margin: 2rem auto;
-    display: flex;
-}
-
-#social a {
-    flex-wrap: nowrap;
-    flex-direction: row;
-    width: 100%;
-}
-
-#social a img {
-    display: block;
-    width: 40%;
-    height: auto;
-    margin: 0 auto;
 }

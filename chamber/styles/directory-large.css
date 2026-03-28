@@ -3,19 +3,6 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    footer {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    footer section {
-        width: 80%;
-        margin: 0 auto;
-
-    }
-
-    #social {
-        margin: 0;
-    }
+    #members section {}
 
 }
